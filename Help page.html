@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Center</title>
+    <li><a href="Home Page.html">Home</a></li>
+    <li><a href="RegisterButton.html">Register</a></li>
+    <li><a href="MeetTheTeam.html">Meet the Team</a></li>
+    
+    <style>
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+        
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #333;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #007BFF;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+#contactFooter a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+    </style>
+</head>
+
+<body>
+
+    <h2>Help Center</h2>
+
+    <section>
+        <h3>Common Issues</h3>
+        <ul>
+            <li><a href="#account">Account and Login</a></li>
+            <li><a href="#navigation">Navigation and Features</a></li>
+            <li><a href="#troubleshooting">Troubleshooting</a></li>
+            <li><a href="#payment">Payment and Billing</a></li>
+            <li><a href="#privacy">Privacy and Security</a></li>
+        </ul>
+    </section>
+
+    <section id="account">
+        <h3>Account and Login</h3>
+        <p>Managing your account is easy! If you encounter any issues, follow these steps:</p>
+        <ul>
+            <li>Create an Account: Visit our homepage and click on "Sign Up" to create your account.</li>
+            <li>Login Troubles: If you're having trouble logging in, ensure you're using the correct email and password. You can reset your password if needed.</li>
+            <li>Profile Settings: Customize your profile settings to personalize your experience. Add a profile picture, update contact information, and more.</li>
+        </ul>
+    </section>
+
+    <section id="navigation">
+        <h3>Navigation and Features</h3>
+        <p>Explore the exciting features our platform offers:</p>
+        <ul>
+            <li>Dashboard: Your personalized dashboard provides an overview of your account, recent activities, and recommendations.</li>
+            <li>Favorites: Save your favorite items or services for easy access later.</li>
+            <li>Notifications: Stay updated with notifications for new messages, updates, and more.</li>
+        </ul>
+    </section>
+
+    <section id="troubleshooting">
+        <h3>Troubleshooting</h3>
+        <p>Encountering technical issues? Here are some common solutions:</p>
+        <ul>
+            <li>Clear Browser Cache: Clear your browser cache to ensure you're loading the latest version of the website.</li>
+            <li>Update Browser: Ensure you're using an up-to-date browser for optimal performance.</li>
+            <li>Contact Support: If issues persist, contact our support team for assistance. Provide detailed information about the problem for faster resolution.</li>
+        </ul>
+    </section>
+
+    <section id="payment">
+        <h3>Payment and Billing</h3>
+        <p>Managing payments and billing is straightforward:</p>
+        <ul>
+            <li>Payment Methods: Add or update your preferred payment methods in the "Billing" section of your account settings.</li>
+            <li>Subscription Plans: Explore our subscription plans for premium features and benefits.</li>
+            <li>Invoice History: View and download your invoice history for your records.</li>
+        </ul>
+    </section>
+
+    <section id="privacy">
+        <h3>Privacy and Security</h3>
+        <p>Your privacy and security are our top priorities:</p>
+        <ul>
+            <li>Data Encryption: All your data is encrypted to ensure secure transmission and storage.</li>
+            <li>Privacy Settings: Customize your privacy settings to control who can see your profile and activities.</li>
+            <li>Two-Factor Authentication: Enable two-factor authentication for an extra layer of account security.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Contact Us</h3>
+        <p>If you couldn't find the information you need, please feel free to contact our support team:</p>
+        <form action="contact_support.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <div id="contactFooter">
+          <p>Follow us on social media:</p>
+          <a href="#" target="_blank">Facebook</a>
+          <a href="#" target="_blank">Twitter</a>
+          <a href="#" target="_blank">Instagram</a>
+        </div>
+      </footer>
+</body>
+
+</html>
